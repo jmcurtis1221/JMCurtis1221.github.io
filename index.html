@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<!--code for the head which includes link to Bootstrap and my CSS file-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FinalProject</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="js-addons-rating.js" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+</head>
+
+<body>
+    <div class="container color6">
+        
+        <!--site-header will hold title and nav bar-->
+        <header class="site-header color6">
+            <div class="site-title">Art by Michael Scott</div>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- Container wrapper -->
+                <div class="container-fluid">
+                  <!-- Navbar brand -->
+                  <a class="navbar-brand" href="#"><i class="fas fa-paint-brush"></i></a>
+                  <!-- Toggle button -->
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <!-- Collapsible wrapper -->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0 font1">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#target1">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#target2">For Sale</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#target3">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#target4">Contact</a>
+                      </li>
+                    </ul>
+                    <!-- Left links -->
+                  </div>
+                  <!-- Collapsible wrapper -->
+                </div>
+                <!-- Container wrapper -->
+              </nav>
+              <!-- Navbar --> 
+
+              
+        </header>
+        <!--end of header-->    
+
+        <!--here is code to implement the button onto the page-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <!--we will need a row for each content area, here I have set up the first row-->
+        <!--row 1 will be about/home-->
+        <div class="row color6">
+            <a name="target1"></a>
+            <div class="col-sm-4 col-lg-4 color2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="michaelscotthandshake.jpg" class="img-fluid" alt="Responsive image" width="100%">
+                        <img src="michaelscottmug.jpeg" class="img-fluid" alt="Responsive image" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 color3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">About Me</h4>
+                            <p class="card-text">Hello, my name is Michael Gary Scott, and this is my art page. I grew up in Scranton, PA, and have spent most of my life working as a branch manager for a mid-range paper supply company. I am considered by many to be the world's best boss, and have made lots of friends in the paper industry, but over the years I realized that art is my true passion. Art has helped me through the toughest times in my life, like when I was Prison Mike, and when I was just a measly salesman. I love art. On this website, I have showcased some of my best work. Much of it is for sale, so feel free to check it out, and if you feel so inclined, contact me about purchasing some art to support a local artist and spruce up your home.</p>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="col-sm-4 col-lg-4 color4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="prisonmike.jpg" class="img-fluid" alt="Responsive image" width="100%">
+                        <img src="michaelwinner.jpeg" class="img-fluid" alt="Responsive image" width="100%">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of row 1-->
+
+        <!--row 2 will be for sale-->
+        <div class="row color7">
+            <a name="target2"></a>
+            <div class="col-sm-4 col-lg-4 color5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">"Me and My Family"</h4>
+                        <img src="scottart1.jpg" class="img-fluid" alt="Responsive image">
+                        <p class="card-text">This piece is a beautiful portrait of me and family outside of our home. The photo represents family bonds and livelyhood, and is priced at $399 for sale.</p>
+                        <button type="button" class="btn btn-primary btn-sm">Buy Now</button>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 color5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">"Adventures at Sea"</h4>
+                        <img src="scottart2.jpg" class="img-fluid" alt="Responsive image">
+                        <p class="card-text">One of my favorite pieces, this painting reveals a sweeping landscape and an action packed sea scene. Take youself on a journey to the ends of the earth by purchasing this work priced at $449.</p>
+                        <button type="button" class="btn btn-primary btn-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 color5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">"Elephant Ecstasy"</h4>
+                        <img src="scottart3.jpg" class="img-fluid" alt="Responsive image">
+                        <p class="card-text">Here we see a wild elephant grazing in his natural habitat. To me, this work symbolizes freedom and nature, and the beauty of it all. Make it yours for only $299.</p>
+                        <button type="button" class="btn btn-primary btn-sm">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of row 2-->
+
+        <!--row 3 will be reviews-->
+        <div class="row color6">
+            <a name="target3"></a>
+            <div class="col-sm-3 col-lg-3 color8">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Awesome quality...</h4>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <p class="card-text">@dwightschrute</p>
+                        <p class="card-text">I recieved a beautiful painting of a bear last week. It was the 
+                            perfect addition to my farm-style home. It looks amazing over my fireplace. Super awesome quality. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Beautiful...</h4>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        <p class="card-text">@BobVanveOfVanceRefrigeration</p>
+                        <p class="card-text">I recently bought some of Michael's art, and it looks quite nice next to our 3500W Vance Cool-Air Conduction Refrigerator. Contact me for all your refrigeration needs! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color10">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Cannot believe my eyes...</h4>
+                        </i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                        <p class="card-text">@MoseSchrute</p>    
+                        <p class="card-text">This is the first piece of art I ever bought. This is also the first internet review I have made. Hello my name is Mose. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color10">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Amazing work...</h4>
+                        </i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <p class="card-text">@JimPrankinsonHalpert</p>    
+                        <p class="card-text">The art that is being sold on the website is on the next level. I cannot believe my
+                            eyes each time I look at it. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color10">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Tasteful and eye-catching...</h4>
+                        </i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <p class="card-text">@AngelaCatLover</p>    
+                        <p class="card-text">I am not one to endulge in fancy things, but Michael was able to create a very sophisticated portrait of my late kitten Sprinkes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color10">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Talented work...</h4>
+                        </i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <p class="card-text">@PamHalpert</p>    
+                        <p class="card-text">As an artist myself, I noticed Michael's work is very skilled. I love supporting other local artists and their pieces.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color10">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Not bad at all...</h4>
+                        </i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                        <p class="card-text">@ToddPacker69</p>    
+                        <p class="card-text">I didn't expect much from Michael because he is kind of a loser, but he pulled through on this one. The paintings are pretty cool. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 color11">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Leave your own review!</h4>
+                        <span id="rateMe2"  class="empty-stars"></span>
+                        <p class="card-text">Share your thoughts and comments about my work
+                        </p>
+                        <button type="button" class="btn btn-primary btn-sm">Review here</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of row 3-->
+
+
+        <div class="row color12">
+            <a name="target4"></a>
+            <div class="col-sm-12 col-lg-12">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="word" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Phone Number</label>
+                      <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>Sponsored by:</h3>
+            <div class="col-sm-3 col-lg-3">
+                <img src="wuph.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-sm-3 col-lg-3">
+                <img src="VanceRefrigeration.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-sm-3 col-lg-3">
+                <img src="athleap.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+        <footer class="sotefooter">
+            <h6>Michael Scott Art</h6><h6>MichaelScarn@hotmail.com</h6><i class="fas fa-copyright color13"></i><i class="fas fa-trademark color13"></i><i class="fas fa-registered color13"></i>
+            <h6>Owned by Michael Scott - Produced By Michael Scott - Developed by John Michael Curtis and Andrew Tilley</h6>
+        </footer>
+
+    <!--end of container div-->
+    </div>
+
+    <!--here is the code for the bootstrap to work-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/addons/rating.js"></script>
+    <script src="https://kit.fontawesome.com/5ca4f05f2b.js" crossorigin="anonymous"></script>
+    
+    <!--we added a script and function to allow for a button to return the user to the top of the screen-->
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+
+</body>
